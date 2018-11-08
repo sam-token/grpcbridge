@@ -1,4 +1,5 @@
 apply plugin: 'application'
+apply plugin: 'io.token.gradle.protobuf'
 
 mainClassName='grpcbridge.sample.Application'
 
@@ -10,4 +11,8 @@ dependencies {
     compile group: 'io.grpc', name: 'grpc-stub', version: ver.grpc
 
     compile "com.sparkjava:spark-core:2.5"
+}
+
+checkstyle {
+    sourceSets = []
 }
