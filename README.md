@@ -9,7 +9,7 @@ Maven:
 <dependency>
   <groupId>grpcbridge</groupId>
   <artifactId>grpcbridge</artifactId>
-  <version>1.0.3</version>
+  <version>1.0.19</version>
   <type>pom</type>
 </dependency>
 ```
